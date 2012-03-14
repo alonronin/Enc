@@ -5,7 +5,7 @@
 	"author":{ "name": "Alon Valadji", "email": "alon@empeeric.com" },
 	"main":"index",
 	"keywords":["base64", "sha1", "md5", "crypto", "encription", "decription"],
-	"repository":"git@github.com:Empeeric/jest.git",
+	"repository":"git@github.com:alonronin/Enc.git",
 	"engines":{
 		"node":">= 0.4.1"
 	}
