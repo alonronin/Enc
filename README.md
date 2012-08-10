@@ -13,7 +13,7 @@ synopsis
 --------
 require the Enc library
 
-	var Enc = require('Enc');
+	var Enc = require('enc');
 
 basic encode to base64
 
