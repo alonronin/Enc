@@ -55,6 +55,7 @@ var crypto = require("crypto");
  'rc4-40',
  'aes192',
  'blowfish',
+ 'bf',
  'cast',
  'des',
  'des3',
