@@ -11,36 +11,36 @@ An idiomatic way to encode/decode (using key or to base64) or hashing strings.
 
 synopsis
 --------
-// require the Enc library
+require the Enc library
 
 	var Enc = require('Enc');
 
-// basic encode to base64
+basic encode to base64
 
 	var encoded_str = Enc.base64.encode('test');
 
-// now let's decode it
+now let's decode it
+
 	var decoded_str = Enc.base64.decode('dGVzdA==');
 
+let's create a secret key
 
-// let's create a secret key
+    var key = 'test'; // can be any string you want
 
-	var key = 'test'; // can be any string you want
-
-// let's encrypt using aes192 algorithm
+let's encrypt using aes192 algorithm
 
     var encrypted_str = Enc.aes192.encode('test', key);
 
-// let's decrypt it
+let's decrypt it
 
     var decrypted_str = Enc.aes192.decode('79caa93da9153f23fe10c7ddf2d8267e', key);
 
-// we want to make a hash
+we want to make a hash
 
     var hash = Enc.md5('test');
 
-// we can also pass a digest string to the hash method as optional
-// argument: 'hex', 'binary' or 'base64' ('hex' is default)
+we can also pass a digest string to the hash method as optional
+argument: 'hex', 'binary' or 'base64' ('hex' is default)
 
     var hash = Enc.md5('test', 'binary');
 
