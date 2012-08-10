@@ -63,7 +63,7 @@ var hash = Enc.md5('test', 'binary');
 that's it :)
 
 you can use any popular algorithm `Enc#algorithm.encode(str, key)`,
-or Enc#algorithm.decode(str, key)` like so:
+or `Enc#algorithm.decode(str, key)` like so:
 
 ```js
 // hashing
