@@ -74,7 +74,7 @@ Enc.sha1('test');
 // encrypting
 
 Enc.blowfish.encode('test', key);
-Enc.des_ede_cfb.encode('test', key');
+Enc.des_ede_cfb.encode('test', key);
 
 // base64
 
