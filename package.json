@@ -1,12 +1,22 @@
 {
-	"name":"enc",
-	"description":"Encription/Decription crypto wrapper",
-	"version":"0.2.0",
-	"author":{ "name": "Alon Valadji", "email": "alon@empeeric.com" },
-	"main":"index",
-	"keywords":["base64", "sha1", "md5", "crypto", "encryption", "decryption"],
-	"repository":"git@github.com:alonronin/Enc.git",
-	"engines":{
-		"node":">= 0.4.1"
-	}
+  "name": "enc",
+  "description": "Encription/Decription crypto wrapper",
+  "version": "0.3.0",
+  "author": {
+    "name": "Alon Valadji",
+    "email": "alon@empeeric.com"
+  },
+  "main": "index",
+  "keywords": [
+    "base64",
+    "sha1",
+    "md5",
+    "crypto",
+    "encryption",
+    "decryption"
+  ],
+  "repository": "git@github.com:alonronin/Enc.git",
+  "engines": {
+    "node": ">= 0.4.1"
+  }
 }
