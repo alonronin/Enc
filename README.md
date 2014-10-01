@@ -81,6 +81,24 @@ Enc.des_ede_cfb.encode('test', key);
 Enc.base64.encode('test');
 ```
 
+to see available algorithms:
+```js
+
+// for hashes function
+console.log(Enc.algorithms.hashes);
+
+// for cyphers
+console.log(Enc.algorithms.cyphers);
+
+// for buffers
+console.log(Enc.algorithms.buffers);
+
+// all
+console.log(Enc.algorithms);
+```
+
+__note__: all functions are lowercase and if an algorithm contains a `-` just replace it with `_`.
+
 installation
 ------------
 
