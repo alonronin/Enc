@@ -9,7 +9,13 @@ introduction
 ------------
 An idiomatic way to encode/decode (using key or to base64) or hashing strings.
 
-synopsis
+
+installation
+------------
+
+    $ npm install enc
+
+usage
 --------
 require the Enc library
 
@@ -98,11 +104,6 @@ console.log(Enc.algorithms);
 ```
 
 __note__: all functions are lowercase and if an algorithm contains a `-` just replace it with `_`.
-
-installation
-------------
-
-    $ npm install enc
 
 ## The MIT License
 
