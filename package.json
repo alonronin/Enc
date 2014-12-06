@@ -1,7 +1,7 @@
 {
   "name": "enc",
   "description": "Encription/Decription crypto wrapper",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": {
     "name": "Alon Valadji",
     "email": "alon@empeeric.com"
